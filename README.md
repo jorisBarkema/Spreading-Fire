@@ -34,4 +34,4 @@ Once the particle systems are assigned, there are some other options which can b
 Fire and smoke can be stopped manually by calling the **StopBurning** method of the firescript. The status of the gameobject can be accessed by the public bools **Smoking** and **Burning**. The scripts can be edited to perform special actions for example if the player starts smoking or burning, or you can use **GetComponent<FireScript>** to use this status in your own scripts.
 
 ## License
-You are free to use and adapt this project however you want in your own projects, also in commercial projects. Attribution is appreciated but not required. If you notice a bug, you can make a new issue on Github, and if you appreciate this project, please consider [donating!](https://paypal.me/JRBNL?locale.x=nl_NL)
+You are free to use and adapt this project however you want in your own projects, also in commercial projects. Attribution is appreciated but not required. If you notice a bug, you can make a new issue on Github, and if you appreciate this project, please consider donating via [Paypal](https://paypal.me/JRBNL?locale.x=nl_NL)!
