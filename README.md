@@ -15,12 +15,12 @@ In the demo some simple prefabs have been included to check that the project has
 ## Setup
 To get this working in your own project, create an empty object and attach the **FireManager** script to it, or attach it to for example some other GameManager gameobject. **There can only be one firemanager per scene.** Customise the **Burn Distance** of the firemanager to fit how fast you want the fire to spread, the correct value here largely depends on the scale of your gameobjects. Then simply add prefabs with a **FireScript** to the scene, it’s that simple!
 
-<<image of fire manager>>
+![alt text](https://github.com/jorisBarkema/Spreading-Fire/blob/master/FireManagerInspector.png "Fire Manager in inspector")
 
 ## Creating a burnable prefab
 Any gameobject with a **MeshRenderer** or **SkinnedMeshRenderer** with a collider or multiple sub-colliders can become burnable. First attach a **FireScript** to the gameobject. You will see that there are three particle systems which need to be assigned a particle system.
 
-<<image of fire script>>
+![alt text](https://github.com/jorisBarkema/Spreading-Fire/blob/master/FireScriptInspector.png "Fire Script in inspector")
 
 Create your own particle systems that you want to play, or use the ones from the demo. Tips for creating the particle systems:
 
