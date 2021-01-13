@@ -10,7 +10,7 @@ Included assets in the demo:
 | Fire particle system                | [Sirhaian'Arts](https://www.youtube.com/watch?v=5Mw6NpSEb2o)      |
 | Smoke and Dissolve particle systems | Me                                                                |
 
-In the demo some simple prefabs have been included to check that the project has been imported successfully. If everything works correctly, one of the logs should start smoking when the game is started, and the fire should spread to all of the other objects. (including the player if you don’t move with arrow keys/awsd)
+In the demo some simple prefabs have been included to check that the project has been imported successfully. If everything works correctly, one of the logs should start falling and burning when the game is started, and the fire should spread to all of the other objects. (including the player if you don’t move with arrow keys/awsd)
 
 ## Setup
 To get this working in your own project, create an empty object and attach the **FireManager** script to it, or attach it to for example some other GameManager gameobject. **There can only be one firemanager per scene.** Customise the **Burn Distance** of the firemanager to fit how fast you want the fire to spread, the correct value here largely depends on the scale of your gameobjects. Then simply add prefabs with a **FireScript** to the scene, it’s that simple!
