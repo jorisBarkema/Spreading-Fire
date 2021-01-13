@@ -1,5 +1,5 @@
 # Customizable Spreading Fire
-Making an object burn in Unity is easy with particle systems. In real life however, fire spreads. This project allows for easy customizable spreading fire in any game. The scripts work for stationary and moving burning objects, objects with or without physics. In this guide I will explain how to use this in your own projects.
+Making an object burn in Unity is easy with particle systems. In real life however, fire spreads. This project allows for easy customizable spreading fire in any game. The scripts work for stationary and moving burning objects, objects with or without physics. See the releases for the .unitypackage file to easily import it into your project. In this guide I will explain how to use this in your own projects.
 
 ## Demo
 Included assets in the demo:
